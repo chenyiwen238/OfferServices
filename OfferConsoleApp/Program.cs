@@ -18,6 +18,7 @@ namespace OfferWebApiClientConsoleApp
     {
         public static async Task Main(string[] args)
         {
+            //new host builder
             var builder = new HostBuilder()
                 .ConfigureAppConfiguration((hostingContext, config) =>
                 {
